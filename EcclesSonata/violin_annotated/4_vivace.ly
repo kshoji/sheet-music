@@ -21,16 +21,16 @@
 		\override Staff.KeySignature #'stencil = ##f
 
 		bes( c) bes-. a-. g8-.
-		d'16( g) g-. g-. g-. a-.
+		d'16( \downbow g) g-. g-. g-. a-.
 		fis( g) fis-. e-. d-. fis-.
 		g( bes) bes-. bes-. bes-. bes-.
-		es,( g) g-. g-. g-. g-.
-		c,( f) f-. f-. f-. f-.
-		d( es) d-. c-. bes-. c-.
+		es,^2( g) g-. g-. g-. g-.
+		c,^1( f^4) f-. f-. f-. f-.
+		d( es) d-. c-.^2 bes-. c-.
 		d( g) g-. g-. g-. f-.
-		e( \< f) e-. d-. c-. g'-. \!
+		e( \< f) e-. d-. c-. g'-.^1 \!
 		c-. g-. a-. bes-. a-. g-.
-		fis-. \> g-. fis-. e-. d-. c-. \!
+		fis-.^1 \> g-. fis-. e-.^\parenthesize-0 d-. c-. \!
 		bes \p g' bes, g' bes, g'
 		c, g' c, g' \< c, g'
 		d g d g d g
@@ -39,7 +39,7 @@
 		c, g' c, g' c, g'
 		d g fis a d, fis \!
 		g4 a8
-		bes16 a g f es d
+		bes16 a g f es^\parenthesize-4 d
 		g f es d c bes
 		c d es d c bes
 		a bes c bes c a
@@ -78,15 +78,15 @@
 	g a bes a g fis
 	g a bes a g fis
 	g \p aes g f g d
-	es f g f es d
+	es^\parenthesize-4 f g f es d
 	c d es d c bes
 	a bes c bes a g
-	fis e d8-. d'-.
-	es a,4 \trill
+	fis e d8-.^0 d'-.^1
+	es a,4^2 \trill
 	g16 \f bes bes d d g
 	g d d bes bes g
-	d' bes bes g g d
-	bes' g g d d bes
+	d' bes bes g g d^0
+	bes'^1 g g d d bes
 	g( bes) d g bes d
 	g4 ^\accent r8
 	<d, a' fis'>4 ^\accent r8

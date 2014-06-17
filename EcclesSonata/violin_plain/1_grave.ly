@@ -5,10 +5,6 @@
 	tagline = ""
 }
 
-%% use like ^\markup {\db}
-db = \markup { \musicglyph #"scripts.downbow" }
-ub = \markup { \musicglyph #"scripts.upbow" }
-
 \pointAndClickOff
 
 \relative c'' {

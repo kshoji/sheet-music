@@ -2,8 +2,6 @@
 	tagline = ""
 }
 
-%% doubleBreath = \markup { \musicglyph #"scripts.caesura.straight" \breathe }
-
 \pointAndClickOff
 
 \relative c'' {
